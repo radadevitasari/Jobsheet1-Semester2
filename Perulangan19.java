@@ -6,7 +6,8 @@ public class Perulangan19 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Input NIM: ");
         String nim = sc.nextLine();
-        int n = Integer.parseInt(nim.substring(nim.length() - 2));
+        System.out.print("Input 2 digit terakhir NIM: ");
+        int n = sc.nextInt();
 
         if (n < 10) {
             n += 10;
